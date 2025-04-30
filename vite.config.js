@@ -9,22 +9,29 @@ export default defineConfig({
     VitePWA({
       registerType: "autoUpdate",
       manifest: {
-        name: "Hoobank",
-        short_name: "Hoobank",
+        name: "HooBank",
+        short_name: "HooBank",
         description: "A modern banking app",
         theme_color: "#1e2331",
+        start_url: "/",
+        display: "standalone",
         icons: [
           {
-            src: "public/hoobank.png",
+            src: "hoobank.png",
             sizes: "192x192",
             type: "image/png",
+            purpose: "any maskable",
           },
           {
-            src: "public/hoobank2.png",
+            src: "hoobank2.png",
             sizes: "512x512",
             type: "image/png",
+            purpose: "any maskable",
           },
         ],
+      },
+      workbox: {
+        cleanupOutdatedCaches: true, // Ensures old caches are removed
       },
     }),
   ],
