@@ -15,12 +15,12 @@ export default defineConfig({
         theme_color: "#1e2331",
         icons: [
           {
-            src: "/logo.png",
+            src: "public/hoobank.png",
             sizes: "192x192",
             type: "image/png",
           },
           {
-            src: "/hoobank.png",
+            src: "public/hoobank.png",
             sizes: "512x512",
             type: "image/png",
           },
