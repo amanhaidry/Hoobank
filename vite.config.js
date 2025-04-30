@@ -20,7 +20,7 @@ export default defineConfig({
             type: "image/png",
           },
           {
-            src: "public/hoobank.png",
+            src: "public/hoobank2.png",
             sizes: "512x512",
             type: "image/png",
           },
