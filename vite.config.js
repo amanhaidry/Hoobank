@@ -13,6 +13,7 @@ export default defineConfig({
         short_name: "HooBank",
         description: "A modern banking app",
         theme_color: "#1e2331",
+        background_color: "#1e2331",
         start_url: "/",
         display: "standalone",
         icons: [
