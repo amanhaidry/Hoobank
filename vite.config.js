@@ -18,20 +18,22 @@ export default defineConfig({
         display: "standalone",
         icons: [
           {
-            src: "hoobank.png",
+            src: "/hoobank.png",
             sizes: "192x192",
             type: "image/png",
+            purpose: "any maskable",
           },
           {
-            src: "hoobank2.png",
+            src: "/hoobank2.png",
             sizes: "512x512",
             type: "image/png",
+            purpose: "any maskable",
           },
         ],
       },
-      // workbox: {
-      //   cleanupOutdatedCaches: true, // Ensures old caches are removed
-      // },
+      workbox: {
+        cleanupOutdatedCaches: true, // Ensures old caches are removed
+      },
     }),
   ],
 });
