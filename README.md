@@ -7,7 +7,7 @@ Hoobank is a modern banking application designed to improve frontend development
 ![Hoobank Preview](./screenshot/Hoobank.png)
 
 ## Live Demo
-Check out the live project [here](https://hoobank-live-demo.com).
+Check out the live project [here](https://uiux-hoobank.netlify.app).
 
 
 
