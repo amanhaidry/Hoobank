@@ -21,13 +21,11 @@ export default defineConfig({
             src: "/hoobank.png",
             sizes: "192x192",
             type: "image/png",
-            purpose: "any maskable",
           },
           {
             src: "/hoobank2.png",
             sizes: "512x512",
             type: "image/png",
-            purpose: "any maskable",
           },
         ],
       },
